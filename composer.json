@@ -1,0 +1,31 @@
+{
+    "name": "nguyenanhung/oauth2-git-service",
+    "type": "library",
+    "description": "OAuth 2.0 Git Service Wrapper",
+    "keywords": [
+        "php",
+        "oauth2",
+        "git",
+        "service"
+    ],
+    "homepage": "https://github.com/nguyenanhung/oauth2-git-service",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "league/oauth2-github": "^3.0",
+        "omines/oauth2-gitlab": "^3.4",
+        "stevenmaguire/oauth2-bitbucket": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\OAuth2\\GIT\\": "src/"
+        }
+    }
+}
